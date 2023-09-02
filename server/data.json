@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "name": "Sedací souprava GARDENA 1090",
+        "photo": "https://img.cz.favicdn.net/images/products/300x300/c5ceba83-4d2c-4c66-9325-9cb46449ae03.webp",
+        "description": "Výrobek je certifikován značkou „Goldene M“, jedinou oficiální značkou vysoké kvality nábytku v Německu, kterou uděluje Deutschen Gütegemeinschaft Möbel (DGM). Výrobek prošel v nezávislých zkušebních institutech všemi testy na kvalitu použitých materiálů, bezpečnost, nezávadnost pro lidské zdraví, dlouhou životnost a šetrnost k životnímu prostředí.",
+        "price": "39445",
+        "parameters": [
+            {
+                "name": "Width",
+                "value": "240"
+            },
+            {
+                "name": "Length",
+                "value": "160"
+            },
+            {
+                "name": "Material",
+                "value": "Wood"
+            },
+            {
+                "name": "Color",
+                "value": "Brown"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Rozkládací rohová sedací souprava ALEX Šedá",
+        "photo": "https://img.cz.favicdn.net/images/products/300x300/ae384388-02d1-42d2-af89-2ff87ec537b2.webp",
+        "description": "Moderní rohová sedačka v mnohobarevném provedení bude pěknou ozdobou každého obývacího pokoje.",
+        "price": "7780",
+        "parameters": [
+            {
+                "name": "Width",
+                "value": "220"
+            },
+            {
+                "name": "Length",
+                "value": "130"
+            },
+            {
+                "name": "Material",
+                "value": "Plastic"
+            },
+            {
+                "name": "Color",
+                "value": "Grey"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": " Krémová rozkládací rohová pohovka SMART, oboustranná",
+        "photo": "https://img.cz.favicdn.net/images/products/300x300/43a4fa0f-ae2c-47b0-9bfd-6a223e005247.webp",
+        "description": "Rozkládací rohová pohovka Smart v krémové barvě se stane ozdobou celého interiéru. Trendy provedení v kombinaci s jemným manšestrovým čalouněním si zamilujete na první dotek.",
+        "price": "14490",
+        "parameters": [
+            {
+                "name": "Width",
+                "value": "230"
+            },
+            {
+                "name": "Length",
+                "value": "170"
+            },
+            {
+                "name": "Material",
+                "value": "Satin"
+            },
+            {
+                "name": "Color",
+                "value": "Beige"
+            }
+        ]
+    }
+]
