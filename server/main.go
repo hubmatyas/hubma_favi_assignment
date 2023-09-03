@@ -52,7 +52,7 @@ func getSimilar(c *gin.Context) {
 					}
 				}
 			}
-			c.JSON(200, similarProducts) // Normálně bych filtroval data similarProducts, ale pro tento příklad je tam tak akorát to, co potřebujeme
+			c.JSON(200, similarProducts) // Normálně bych filtroval data similarProducts (na jen např. titulek, id a fotku), ale pro tento příklad je tam tak akorát to, co potřebujeme
 			return
 		}
 	}

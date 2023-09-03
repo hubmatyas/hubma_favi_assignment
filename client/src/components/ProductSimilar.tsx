@@ -41,7 +41,7 @@ const ProductSimilar: React.FC<ProductSimilarProps> = ({ productId }) => {
       </Grid>
       {similarProducts.map((prod) => (
         <Grid item xs={12} sm={6} md={4} key={prod.id}>
-          <Link to={`/product/${prod.id}`} style={{ textDecoration: 'none' }}>
+          <Link to={`/product/${prod.id}/detail`} style={{ textDecoration: 'none' }}>
             <Card>
               <CardActionArea>
                 <CardMedia component="img" height="140" image={prod.photo} alt={prod.name} />
