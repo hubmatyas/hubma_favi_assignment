@@ -1,6 +1,5 @@
 import React from 'react';
 import { Dialog, DialogActions, DialogContent, Button } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 
 type ModalProps = {
   onClose: () => void;
