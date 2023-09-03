@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -69,9 +70,14 @@ func main() {
 		log.Fatalf("Failed to unmarshal JSON: %v", err)
 	}
 
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
 	r := gin.Default()
 	r.GET("/products", getProducts)
 	r.GET("/products/:id", getProduct)
 	r.GET("/products/:id/similar", getSimilar)
-	r.Run(":8000")
+	r.Run(":" + port)
 }
